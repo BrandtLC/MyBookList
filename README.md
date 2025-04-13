@@ -30,4 +30,7 @@ docker-compose up --build
 ### 4. Suba a aplicação
 -Frontend: http://localhost:5173
 
--Backend (API): http://localhost:500
+-Backend (API): http://localhost:5000
+
+## Fluxograma do projeto
+![Fluxograma](fluxograma.png)
