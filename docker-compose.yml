@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./MyBookListBack
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./MyBookListBack:/app
+    environment:
+      - FLASK_ENV=development
+    restart: on-failure
+
+  frontend:
+    build: ./MyBookList
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./MyBookList:/app
+    restart: on-failure
+    stdin_open: true
+    tty: true

@@ -1,0 +1,33 @@
+# Node (React - Frontend)
+MyBookList/node_modules/
+MyBookList/dist/
+MyBookList/.vite/
+MyBookList/.env
+
+# Python (Flask - Backend)
+MyBookListBack/__pycache__/
+MyBookListBack/*.pyc
+MyBookListBack/.env
+MyBookListBack/venv/
+MyBookListBack/env/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VSCode
+.vscode/
+
+# MacOS / Linux
+.DS_Store
+Thumbs.db
+
+# Python specific
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# System files
+.idea/
+*.swp
